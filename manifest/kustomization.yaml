@@ -1,6 +1,6 @@
 resources:
   - argocd-img-deployment.yaml
-  - argocd-img-serivce.yaml
+  - argocd-img-service.yaml
 images:
   - name: argocd-img-container
     newName: nginx
