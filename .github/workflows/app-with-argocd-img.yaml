@@ -69,6 +69,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
+        repository: ${{ secrets.GITHUB_USERNAME }}/${{ secrets.GITHUB_REPOSITORY }}
         ref: main
         token: ${{ secrets.GH_TOKEN }}
         
