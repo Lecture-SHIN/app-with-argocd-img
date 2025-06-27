@@ -1,6 +1,7 @@
 resources:
   - argocd-img-deployment.yaml
   - argocd-img-service.yaml
+  - sealed-secret.yaml
 images:
   - name: nginx
     newName: dockerlecture/app-with-argocd-img
